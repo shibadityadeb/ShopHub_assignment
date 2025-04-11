@@ -1,12 +1,34 @@
-# React + Vite
+# 🛒 ShopHub – React Shopping Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **ShopHub**, a React-based shopping portal built using the [Fake Store API](https://fakestoreapi.com/). This project was created as part of an assignment and demonstrates a responsive shopping UI, login functionality, product display, and cart management using React.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Click here to explore ShopHub](https://shophub-portal.netlify.app/login)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Technologies Used
+
+- **React + Vite**
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **Fake Store API**
+- **Responsive Design**
+- **Netlify** (for deployment)
+
+---
+
+## 🔗 API Integration
+
+This project uses the **[Fake Store API](https://fakestoreapi.com/)** to fetch dynamic product data including:
+
+- Product name, image, price, and description
+- Categories for filtering
+- Product details for single view
+- Cart logic is implemented client-side
+
+Sample API endpoints used:
+```http
+GET https://fakestoreapi.com/products
+GET https://fakestoreapi.com/products/:id
